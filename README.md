@@ -47,21 +47,21 @@ cloud-finops-playbook/
 
 ### For Engineers
 1. Start with [FinOps Basics](foundations/finops-basics.md)
-2. Review [Tagging Standards](TAGGING-STANDARDS.md) for your organization
-3. Implement cost allocation using [Cost Allocation Guide](COST-ALLOCATION.md)
-4. Deploy monitoring with [OpenCost](kubernetes/opencost/) or [Kubecost](tools/kubecost/)
+2. Explore [Kubernetes Cost Optimization](kubernetes/kube-cost/README.md)
+3. Learn [EC2 Right-Sizing](aws/compute/ec2-rightsizing.md) (AWS)
+4. Deploy monitoring with [OpenCost](kubernetes/kube-cost/README.md#cost-monitoring-tools)
 
 ### For Platform Teams
 1. Read [Engineering-Driven FinOps](foundations/finops-basics.md#engineering-driven-finops)
-2. Build cost-aware [Internal Developer Platforms](platform-engineering/internal-developer-platforms/)
-3. Implement [Golden Paths](platform-engineering/golden-paths/) with cost guardrails
-4. Set up automated cleanup with [scripts/cleanup/](scripts/cleanup/)
+2. Review [AKS Optimization](azure/aks/README.md) (Azure)
+3. Check [GKE FinOps](gcp/gke/README.md) (GCP)
+4. Set up automation from examples in our guides
 
 ### For AI/ML Teams
-1. Understand [GPU Economics](neoclouds/economics/gpu-economics.md)
-2. Optimize [LLM Serving Costs](neoclouds/economics/llm-serving-costs.md)
-3. Implement [GPU Sharing](ai-infrastructure/gpu-cost-optimization/)
-4. Compare [Hyperscaler vs NeoCloud](neoclouds/hyperscaler-vs-neocloud/)
+1. Understand [NeoClouds Overview](neoclouds/overview/what-are-neoclouds.md)
+2. Optimize [GPU Costs](ai-infrastructure/gpu-cost-optimization/README.md)
+3. Compare [Hyperscaler vs NeoCloud](neoclouds/overview/what-are-neoclouds.md#hyperscaler-vs-neocloud-comparison)
+4. Review [Private Cloud Options](openstack/private-cloud-finops.md)
 
 ## 🛠️ Tools & Automation
 
